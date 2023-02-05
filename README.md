@@ -4,9 +4,9 @@ For the API documentation go to http://github.com/Felix3qH4/Mobiliteit.lu-API-do
 
 ## Usage
 ```py
-from mobiliteit_api.api import API
+import mobiliteit_api as MA
 
-connection = API(api_key="my-secret-key")
+connection = MA.API(api_key="my-secret-key")
 
 departures = connection.get_departures(station_id=1234)
 
