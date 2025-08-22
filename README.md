@@ -13,3 +13,5 @@ departures = connection.get_departures(station_id=1234)
 stations = connection.get_location_by_coordinate(coord_lat=49.171, coord_long=6.718, radius=500)
 
 ```
+
+
